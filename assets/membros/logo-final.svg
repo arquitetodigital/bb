@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 190" width="860" height="190">
+  <g transform="translate(10 4) scale(0.92)">
+  <path d="M 43 21 C 68 3 99 6 106 24 C 114 46 95 64 76 74 C 58 84 46 101 43 121 C 27 109 17 91 17 70 C 17 49 27 32 43 21 Z" fill="#7D9FBE" opacity="0.92"/>
+  <path d="M 127 70 C 142 70 153 81 153 96 C 153 111 142 122 127 122 C 112 122 101 111 101 96 C 101 81 112 70 127 70 Z" fill="#e2a33f"/>
+  <path d="M 77 92 C 94 89 105 99 118 118 C 136 144 155 156 181 147 C 177 164 160 178 137 183 C 110 188 89 171 78 147 C 72 133 70 112 77 92 Z" fill="#82465D"/>
+  <path d="M 130 117 C 143 109 157 108 168 112 C 180 116 187 126 185 138 C 182 153 170 163 153 166 C 137 169 123 160 122 144 C 121 133 124 121 130 117 Z" fill="#e2a33f" opacity="0.95"/>
+</g>
+  <text x="205" y="66" font-family="Nunito, system-ui, -apple-system, sans-serif" font-weight="800" font-size="27" letter-spacing="4" fill="#7D9FBE">PROTOCOLO</text>
+  <text x="205" y="142" font-family="Nunito, system-ui, -apple-system, sans-serif" font-weight="900" font-size="50" letter-spacing="-1.5" fill="#82465D">COLINHO SEM CÓLICAS</text>
+</svg>

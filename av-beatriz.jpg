@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Protocolo Bebê Tranquilo · Técnica da Barriguinha Molinha</title>
+
+<!-- Meta Pixel · NexoFy -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1052093420867688');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1052093420867688&ev=PageView&noscript=1"/></noscript>
+<script src="https://appnexofy.com.br/nexofy.js"
+        data-public-key="cmtq9c4j7000jju04ayuvsvjp"
+        data-auto-page-view="true"></script>
+<script>
+(function(){
+  var K=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','src','sck','fbclid','gclid','ttclid'];
+  var S='nexofy_utm',TTL=2592000000;
+  function save(o){
+    try{localStorage.setItem(S,JSON.stringify({t:Date.now(),v:o}))}catch(e){}
+    try{document.cookie=S+'='+encodeURIComponent(JSON.stringify(o))+';path=/;max-age=2592000;SameSite=Lax'}catch(e){}
+  }
+  function read(){
+    try{var r=JSON.parse(localStorage.getItem(S)||'null');if(r&&r.v&&Date.now()-r.t<TTL)return r.v}catch(e){}
+    var m=document.cookie.match('(?:^|; )'+S+'=([^;]*)');
+    if(m){try{return JSON.parse(decodeURIComponent(m[1]))}catch(e){}}
+    return {};
+  }
+  function fromUrl(){
+    var q=new URLSearchParams(location.search),o={};
+    K.forEach(function(k){var v=q.get(k);if(v)o[k]=v});
+    return o;
+  }
+  var incoming=fromUrl();
+  var data=Object.keys(incoming).length?incoming:read();
+  if(Object.keys(incoming).length)save(incoming);
+  window.nexofyUtm=data;
+  if(!Object.keys(data).length)return;
+  function link(a){
+    var h=a.getAttribute('href');
+    if(!h||/^(#|mailto:|tel:|javascript:)/i.test(h))return;
+    var u;try{u=new URL(h,location.href)}catch(e){return}
+    if(u.protocol!=='http:'&&u.protocol!=='https:')return;
+    var changed=false;
+    K.forEach(function(k){if(data[k]&&!u.searchParams.get(k)){u.searchParams.set(k,data[k]);changed=true}});
+    if(changed)a.setAttribute('href',u.toString());
+  }
+  function form(f){
+    if(f.getAttribute('data-nexofy'))return;
+    f.setAttribute('data-nexofy','1');
+    K.forEach(function(k){
+      if(!data[k]||f.querySelector('[name="'+k+'"]'))return;
+      var i=document.createElement('input');i.type='hidden';i.name=k;i.value=data[k];f.appendChild(i);
+    });
+  }
+  function apply(){
+    var a=document.getElementsByTagName('a');for(var i=0;i<a.length;i++)link(a[i]);
+    var f=document.getElementsByTagName('form');for(var j=0;j<f.length;j++)form(f[j]);
+  }
+  apply();
+  document.addEventListener('DOMContentLoaded',apply);
+  document.addEventListener('click',function(e){
+    var t=e.target;
+    while(t&&t.tagName!=='A')t=t.parentElement;
+    if(t)link(t);
+  },true);
+  if(window.MutationObserver)new MutationObserver(apply).observe(document.documentElement,{childList:true,subtree:true});
+})();
+</script>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2215%22%20fill%3D%22%2382465d%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2236%22%20r%3D%2218%22%20fill%3D%22%23faf3ef%22%2F%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2224%22%20r%3D%2216%22%20fill%3D%22%2382465d%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2215%22%20r%3D%223.2%22%20fill%3D%22%23faf3ef%22%2F%3E%3C%2Fsvg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2215%22%20fill%3D%22%2382465d%22%2F%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2236%22%20r%3D%2218%22%20fill%3D%22%23faf3ef%22%2F%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2224%22%20r%3D%2216%22%20fill%3D%22%2382465d%22%2F%3E%3Ccircle%20cx%3D%2246%22%20cy%3D%2215%22%20r%3D%223.2%22%20fill%3D%22%23faf3ef%22%2F%3E%3C%2Fsvg%3E">
+<link rel="preload" href="assets/membros/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  /* Identidade da área de membros (16/09/2026): mesma fonte Nunito local, mesmos tokens
+     do fonte/membros-molde.html. Vinho é ação, azul é detalhe, slate é texto. Sem Caveat. */
+  @font-face{font-family:Nunito;src:url('assets/membros/nunito-latin.woff2') format('woff2');font-style:normal;font-weight:200 1000;font-display:swap}
+  :root{
+    --bg:#ffffff;--surface:#f3f8fd;
+    --ink:#2f2529;--muted:#493e43;--quiet:#64535b;
+    --line:#dce2e5;--line-strong:#b7c5cf;
+    --blue:#7D9FBE;--blue-light:#eaf0f5;
+    --wine:#82465D;--wine-dark:#633449;--wine-light:#f0e7eb;
+    --gold:#e2a33f;
+    --on-wine:#f3dfe5;
+    --sh:0 30px 60px -40px rgba(48,62,73,.55);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html,body{overflow-x:hidden}
+  body{font-family:Nunito,system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  h1,h2,h3{font-weight:800;line-height:1.12;letter-spacing:-.03em;text-wrap:balance}
+  p{text-wrap:pretty}
+  svg{display:block}
+  img{max-width:100%;display:block}
+  ::selection{background:var(--wine);color:var(--bg)}
+  :focus-visible{outline:3px solid var(--wine);outline-offset:4px}
+  .eyb{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--wine)}
+  .mk{color:var(--wine)}
+
+  /* botões: pílula vinho, igual ao .bt-pri da área de membros */
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:12px 30px;border-radius:100px;border:1px solid var(--wine);background:var(--wine);color:var(--bg);font-weight:800;font-size:16px;line-height:1.3;text-decoration:none;text-align:center;box-shadow:0 12px 24px -14px rgba(99,52,73,.85);transition:background .18s,border-color .18s,color .18s,transform .18s}
+  .cta:hover{background:var(--wine-dark);border-color:var(--wine-dark);transform:translateY(-1px)}
+  .cta.cream{background:var(--bg);border-color:var(--bg);color:var(--wine);box-shadow:0 18px 34px -18px rgba(20,10,15,.6)}
+  .cta.cream:hover{background:#fff;border-color:#fff;color:var(--wine-dark)}
+  .cta.outline{background:var(--bg);border-color:var(--line-strong);color:var(--ink);box-shadow:none}
+  .cta.outline:hover{border-color:var(--wine);color:var(--wine);background:var(--bg);transform:none}
+
+  /* Hello bar: vinho da marca, texto branco e esteira suave no hover. */
+  .topbar{background:linear-gradient(110deg,#633449 0%,#82465D 52%,#70405b 100%);color:#fff;overflow:hidden;font-size:13px;font-weight:700;letter-spacing:.03em}
+  .topbar-track{display:flex;width:max-content;animation:hello-scroll 28s linear infinite;animation-play-state:paused}
+  .topbar-group{display:flex;align-items:center;justify-content:center;gap:16px;flex:0 0 auto;min-width:100vw;box-sizing:border-box;padding:11px 32px;white-space:nowrap}
+  .topbar b{color:#fff;font-weight:900}
+  .topbar .sep{color:#fff;opacity:.75}
+  .topbar s{color:#fff;text-decoration-thickness:1.5px}
+  .topbar .off{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.45);color:#fff;font-weight:900;padding:3px 11px;border-radius:100px;font-size:12px;letter-spacing:.06em}
+  .topbar:hover .topbar-track{animation-play-state:running}
+  @keyframes hello-scroll{to{transform:translateX(-50%)}}
+  @media(max-width:560px){.topbar{font-size:12.5px}.topbar-group{gap:14px;padding:10px 22px}}
+  @media(hover:none){.topbar-track{animation-play-state:running}}
+  @media(prefers-reduced-motion:reduce){.topbar-group{min-width:100vw;max-width:100vw;white-space:normal;flex-wrap:wrap;gap:8px 12px}.topbar-group[aria-hidden="true"]{display:none}}
+
+  /* CTA fica fora da esteira para continuar fácil de clicar. */
+  .topbar{display:flex;align-items:center;justify-content:center;gap:24px;padding:0 24px;text-transform:uppercase}
+  .topbar-window{flex:0 1 520px;min-width:0;overflow:hidden}
+  .topbar-group{min-width:520px;padding:11px 12px}
+  .topbar-cta{flex:none;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:38px;padding:8px 18px;margin:6px 0;background:#fff;color:#633449;border-radius:100px;font-weight:900;font-size:13px;letter-spacing:0;text-decoration:none;white-space:nowrap;transition:box-shadow .2s}
+  .topbar-cta:hover{box-shadow:0 0 0 3px rgba(255,255,255,.22)}
+  .topbar-cta:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  @media(max-width:560px){.topbar{gap:0;padding:0;flex-wrap:wrap}.topbar-window{flex-basis:100%}.topbar-group{min-width:max-content}.topbar-cta{margin:0 auto 10px;min-height:44px;padding:9px 22px}}
+  @media(prefers-reduced-motion:reduce){.topbar-group{min-width:0;max-width:100%;width:100%;padding-left:8px;padding-right:8px}.topbar-track{width:100%}}
+
+  /* ---------- hero ---------- */
+  .marca-top{display:flex;justify-content:center;padding:24px 20px 0}
+  .marca-top img{width:212px;height:auto}
+  .hero{padding:0 0 80px;text-align:center}
+  .hero .rating{display:inline-flex;align-items:center;gap:9px;margin:34px 0 12px;padding:6px 16px 6px 7px;border-radius:100px;background:var(--surface);border:1px solid var(--line);font-size:13.5px;color:var(--muted)}
+  .hero .rating .avs{display:inline-flex}
+  .hero .rating .avs i{width:24px;height:24px;border-radius:50%;border:2px solid var(--surface);margin-left:-8px;display:block;overflow:hidden}
+  .hero .rating .avs i:first-child{margin-left:0}
+  .hero .rating .avs i img{width:100%;height:100%;object-fit:cover}
+  .hero .rating .stars{color:var(--gold);letter-spacing:1px}
+  .hero .rating b{color:var(--wine);font-weight:800}
+  .hero .rating-sub{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--quiet);margin-bottom:18px}
+  .hero h1{font-size:clamp(30px,5.2vw,52px);line-height:1.08;letter-spacing:-.035em;margin:0 auto 18px;max-width:820px}
+  .hero h1 .hl,.hero h1 .nb{white-space:nowrap}
+  .hero h1 .hl{color:var(--wine);font-style:normal}
+  .hero .hsub{max-width:640px;margin:0 auto 32px;font-size:18px;color:var(--muted)}
+  .hero .hsub .nb{white-space:nowrap}
+  .hero .hsub b{color:var(--ink);font-weight:800}
+
+  /* VSL: só baixa o vídeo quando monta, sem controles nativos (mesmo player do amigurumi) */
+  .vsl{position:relative;max-width:300px;width:100%;aspect-ratio:9/16;margin:0 auto 32px;border-radius:20px;overflow:hidden;background:#26353f;box-shadow:0 34px 60px -34px rgba(48,62,73,.75);cursor:pointer;isolation:isolate}
+  .vsl-poster,.vsl video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .vsl-poster{transition:transform .6s ease,opacity .3s;transform:scale(1.02)}
+  .vsl:hover .vsl-poster{transform:scale(1.06)}
+  .vsl.started .vsl-poster{opacity:0;pointer-events:none}
+  .vsl-shade{position:absolute;inset:0;z-index:1;pointer-events:none;transition:opacity .25s;background:linear-gradient(180deg,rgba(30,45,58,.2),transparent 32% 58%,rgba(30,45,58,.62))}
+  .vsl-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;width:76px;height:76px;border:0;border-radius:50%;background:var(--bg);color:var(--wine);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 14px 30px -10px rgba(30,45,58,.6);transition:background .2s,opacity .25s;animation:vslbreath 2.6s ease-in-out infinite}
+  .vsl-btn .vb-play{margin-left:4px;display:none}
+  .vsl:not(.muted) .vsl-btn .vb-sound{display:none}
+  .vsl:not(.muted) .vsl-btn .vb-play{display:block}
+  .vsl:hover .vsl-btn{background:#fff}
+  @keyframes vslbreath{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.06)}}
+  .vsl-sound{position:absolute;right:11px;top:11px;z-index:5;width:38px;height:38px;border:0;border-radius:50%;background:rgba(30,45,58,.55);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);color:var(--bg);display:none;align-items:center;justify-content:center;cursor:pointer;transition:background .2s}
+  .vsl-sound:hover{background:rgba(30,45,58,.8)}
+  .vsl.started .vsl-sound{display:flex}
+  .vsl-sound .ic-off{display:none}
+  .vsl.muted .vsl-sound .ic-on{display:none}
+  .vsl.muted .vsl-sound .ic-off{display:block}
+  .vsl-tag{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:3;background:rgba(30,45,58,.85);color:var(--bg);font-size:12.5px;font-weight:700;padding:6px 14px;border-radius:100px;white-space:nowrap;pointer-events:none;transition:opacity .25s}
+  .vsl-spin{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;width:44px;height:44px;border-radius:50%;border:3px solid rgba(252,250,247,.25);border-top-color:var(--bg);animation:vslspin .8s linear infinite;display:none}
+  @keyframes vslspin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+  .vsl.loading .vsl-spin{display:block}
+  .vsl.loading .vsl-btn{opacity:0}
+  .vsl.playing .vsl-shade{opacity:0;pointer-events:none}
+  .vsl.playing:not(.muted) .vsl-btn{opacity:0;pointer-events:none}
+  .vsl:not(.muted) .vsl-tag{opacity:0}
+  .vsl.playing{cursor:default}
+
+  /* botão do hero no formato do "continuar" da área de membros: pílula com ícone em círculo */
+  .cta-hero{display:inline-flex;align-items:center;gap:16px;max-width:100%;padding:12px 32px 12px 12px;border:1px solid #94556f;border-radius:100px;background:linear-gradient(160deg,#94516d 0%,#82465D 38%,#633449 100%);color:#fff;text-decoration:none;text-align:left;box-shadow:0 5px 0 #482535,0 14px 26px -8px rgba(99,52,73,.48),inset 0 1px 0 rgba(255,255,255,.24);transition:transform .18s,box-shadow .18s}
+  .cta-hero:hover{transform:translateY(-2px);box-shadow:0 7px 0 #482535,0 19px 30px -8px rgba(99,52,73,.48),inset 0 1px 0 rgba(255,255,255,.24)}
+  .cta-hero:active{transform:translateY(3px);box-shadow:0 2px 0 #482535,0 7px 15px -6px rgba(99,52,73,.4)}
+  .cta-hero:focus-visible{outline:3px solid var(--wine);outline-offset:7px}
+  .cta-ic{width:52px;height:52px;border-radius:50%;background:#fff;color:var(--wine-dark);display:grid;place-items:center;flex:0 0 auto;box-shadow:0 2px 5px #48253530}
+  .cta-ic svg{width:23px;height:23px}
+  .cta-hero>span:not(.cta-ic){flex:1 1 auto;min-width:0;display:flex;flex-direction:column;justify-content:center}
+  .cta-hero b{display:block;font-size:18px;font-weight:900;line-height:1.25;color:#fff}
+  .cta-hero small{display:block;font-size:12.5px;line-height:1.35;color:#fff;margin-top:5px}
+  @media(max-width:520px){.cta-hero{padding:11px 18px 11px 10px;gap:12px}.cta-hero b{font-size:16px}.cta-hero small{font-size:11.5px;line-height:1.3;margin-top:4px}.cta-ic{width:46px;height:46px}.cta-ic svg{width:21px;height:21px}}
+
+  section{padding:92px 0;position:relative}
+  .alt{background:var(--surface);border-block:0}
+  .sec-head{text-align:center;max-width:680px;margin:0 auto 50px}
+  .sec-head .eyb{margin-bottom:14px}
+  .sec-head h2{font-size:clamp(28px,3.8vw,42px)}
+  .sec-head p{color:var(--muted);font-size:17.5px;margin-top:16px}
+
+  /* Pra quem é: cards alinhados, sem divisórias ou rótulos em caixas. */
+  .quem-wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:940px;margin:0 auto;align-items:stretch}
+  .quem-col{display:flex;flex-direction:column;background:var(--bg);border:1px solid #d9c7d0;border-radius:12px;padding:30px 30px 26px;box-shadow:0 14px 28px -18px #24111a44}
+  .quem-col.no{background:#e6f0fa;border-color:#b9d0ea}
+  .quem-pill{display:flex;align-items:center;gap:9px;padding:0;margin:0 0 20px;background:none;color:var(--wine-dark);font-size:21px;font-weight:800;letter-spacing:-.025em;text-transform:none;line-height:1.3}
+  .quem-pill .qp-tick{width:24px;height:24px;border-radius:50%;background:var(--wine);color:#fff;display:grid;place-items:center;font-size:13px;font-weight:900}
+  .quem-pill svg{display:none}
+  .quem-col.no .quem-pill{background:none;color:#2f4a66}
+  .quem-col.no .quem-pill .qp-tick{background:var(--blue);color:#fff}
+  .quem{display:grid;grid-auto-rows:1fr;gap:20px;flex:1;list-style:none;margin:0;padding:0}
+  .quem li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;align-items:start;padding:0;font-size:15.5px;line-height:1.55;border:0}
+  .qk{width:26px;height:26px;display:grid;place-items:center;background:none;color:var(--wine-dark)}
+  .qk svg{width:25px;height:25px;transform:rotate(-5deg)}
+  .quem li:nth-child(2) .qk svg{transform:rotate(3deg)}
+  .quem li:nth-child(3) .qk svg{transform:rotate(-8deg)}
+  .quem li:nth-child(4) .qk svg{transform:rotate(1deg)}
+  .quem-col li{color:var(--ink)}
+  .quem-col.no li{color:#36516d}
+  .quem-col.no .qk{background:none;border:0;color:#4c6d8a}
+  .quem-col.no .qk svg{width:23px;height:23px}
+  @media(max-width:880px){.quem{grid-auto-rows:auto}.quem-col{padding:24px 22px}}
+
+  /* ---------- por que resolver agora: faixa vinho, igual ao banner da área ---------- */
+  .conseq{background:linear-gradient(160deg,var(--wine) 0%,var(--wine-dark) 100%);color:var(--on-wine);padding:100px 0}
+  .pill-claro{color:var(--on-wine);background:rgba(252,250,247,.14);border:1px solid rgba(252,250,247,.28);padding:7px 14px;border-radius:100px}
+  .conseq .sec-head h2{color:var(--bg)}
+  .conseq .sec-head p{color:var(--on-wine)}
+  .conseq-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:980px;margin:0 auto}
+  .conseq-stat{padding:4px 30px;border-left:1px solid rgba(252,250,247,.22)}
+  .conseq-stat:first-child{border-left:0;padding-left:0}
+  .conseq-stat::before{content:"";display:block;width:28px;height:3px;border-radius:3px;background:var(--blue);margin-bottom:18px}
+  .conseq-stat b{display:block;font-size:clamp(40px,4.6vw,54px);font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--bg)}
+  .conseq-stat span{display:block;margin-top:12px;font-size:14.5px;line-height:1.55;color:var(--on-wine)}
+  .conseq-split{display:grid;grid-template-columns:1.08fr .92fr;gap:56px;align-items:center;max-width:980px;margin:64px auto 0;padding-top:56px;border-top:1px solid rgba(252,250,247,.18)}
+  .conseq-corpo h3{font-size:25px;color:var(--bg);margin-bottom:18px}
+  .conseq-corpo p{font-size:16px;line-height:1.65;color:var(--on-wine);margin-bottom:14px}
+  .conseq-corpo strong{color:var(--bg);font-weight:800}
+  .conseq-src{font-size:12.5px!important;line-height:1.6!important;color:rgba(243,223,229,.8)!important;margin:22px 0 0!important}
+  .conseq-src b{color:var(--on-wine)}
+  .conseq-caso{background:var(--bg);color:var(--ink);border-radius:16px;padding:30px 28px 24px;box-shadow:0 34px 60px -30px rgba(20,8,14,.6)}
+  .cc-quote{display:block;width:34px;height:26px;background:var(--blue);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'><path fill='black' d='M0 24V12C0 5.4 5.4 0 12 0v6c-3.3 0-6 2.7-6 6h6v12H0zm20 0V12c0-6.6 5.4-12 12-12v6c-3.3 0-6 2.7-6 6h6v12H20z'/></svg>") no-repeat center / contain;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'><path fill='black' d='M0 24V12C0 5.4 5.4 0 12 0v6c-3.3 0-6 2.7-6 6h6v12H0zm20 0V12c0-6.6 5.4-12 12-12v6c-3.3 0-6 2.7-6 6h6v12H20z'/></svg>") no-repeat center / contain}
+  .conseq-caso h3{font-size:20px;letter-spacing:-.02em;margin:16px 0 10px}
+  .conseq-caso p{font-size:15.5px;line-height:1.65;color:var(--muted)}
+  .cc-who{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;font-weight:700;color:var(--quiet)}
+  .conseq-cta{text-align:center;margin-top:56px}
+
+  /* Estudos: abertura e fontes, sem grade de cards. */
+  .evidence{background:var(--wine-dark);color:var(--bg);padding:88px 0}
+  .evidence-layout{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,100px);align-items:start}
+  .evidence-label{display:block;font-size:13px;font-weight:800;letter-spacing:.08em;margin-bottom:24px;color:#fff}
+  .evidence-lead h2{font-size:clamp(32px,3.7vw,48px);line-height:1.12;letter-spacing:-.04em;color:var(--bg);margin:0 0 26px}
+  .evidence-lead h2 em{font-style:normal;color:#fff}
+  .evidence-lead p{font-size:17px;line-height:1.65;color:#f0e7eb;margin:0 0 18px;max-width:43ch}
+  .evidence-lead .cta{margin-top:14px;font-size:14px;white-space:normal;text-align:center}
+  .evidence-research{padding-left:32px;border-left:1px solid #ffffff35}
+  .evidence-research h3{font-size:18px;line-height:1.4;color:var(--bg);margin:0 0 28px}
+  .evidence-row{padding:0 0 24px;margin-bottom:24px;border-bottom:1px solid #ffffff35}
+  .evidence-number{font-size:38px;line-height:1.1;letter-spacing:-.035em;font-weight:800;color:#fff}
+  .evidence-number small{display:block;font-size:12px;line-height:1.5;letter-spacing:.02em;font-weight:700;margin-top:6px;color:#f0e7eb}
+  .evidence-row p{font-size:15px;line-height:1.6;color:#f0e7eb;margin:14px 0 10px}
+  .evidence-row strong{font-weight:800;color:#fff}
+  .evidence-row a{color:#fff;font-size:12px;text-decoration:underline;text-underline-offset:4px}
+  .ev-headline{display:block;width:100%;margin:16px 0 0;background:#fff;border:1px solid #dce2e5;border-radius:8px;padding:7px;box-sizing:border-box;transition:box-shadow .18s}
+  .ev-headline:hover{box-shadow:0 10px 22px -10px rgba(20,8,14,.55)}
+  .ev-headline img{display:block;width:100%;height:auto;border-radius:5px}
+  @media(max-width:880px){.evidence{padding:56px 0}.evidence-layout{grid-template-columns:minmax(0,1fr);gap:36px}.evidence-research{padding:28px 0 0;border-left:0;border-top:2px solid var(--blue)}.evidence-lead h2{max-width:19ch}.evidence-lead p{font-size:16px}.evidence-number{font-size:34px}}
+
+  /* Recortes de fontes, sem saída da página ou cartões de estatísticas. */
+  .evidence-layout{grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+  .evidence-clippings{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;min-width:0;align-items:start}
+  .evidence-clipping{margin:0}
+  .evidence-clipping img{width:100%;height:auto;display:block;border-radius:2px;box-shadow:0 12px 28px -18px #24111a99}
+  .evidence-clipping figcaption{font-size:13.5px;line-height:1.4;color:#fcfaf7;margin-top:10px}
+  .evidence-clipping figcaption strong{font-weight:800}
+  .evidence-clipping figcaption span{display:block;font-size:11.5px;letter-spacing:.02em;color:#efdae3;margin-top:5px}
+  @media(max-width:880px){.evidence-layout{grid-template-columns:minmax(0,1fr);gap:34px}.evidence-clippings{gap:18px}.evidence-lead h2{max-width:none}.evidence-lead p{max-width:none}}
+  @media(max-width:520px){.evidence-clippings{grid-template-columns:minmax(0,1fr);gap:22px}}
+
+  /* ---------- como funciona ---------- */
+  .metodo .sec-head{max-width:760px;margin-bottom:16px}
+  .metodo-ilustracao{max-width:850px;margin:0 auto 30px}
+  .metodo-ilustracao img{display:block;width:100%;height:auto}
+  .metodo-etapas{max-width:780px;margin:0 auto}
+  .metodo-lista{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+  .metodo-lista>li{position:relative;display:grid;grid-template-columns:52px minmax(0,1fr);gap:22px;padding:28px 32px;background:#ffffff;border:1px solid #c6d9eb;border-radius:12px}
+  .metodo-lista>li:nth-child(2){background:#ffffff}
+  .metodo-lista>li:nth-child(3){background:#ffffff}
+  .metodo-num{width:48px;height:48px;border-radius:50%;background:var(--wine);color:#fcfaf7;display:grid;place-items:center;font-size:24px;font-weight:800;line-height:1}
+  .metodo-k{display:block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--wine);margin:1px 34px 7px 0}
+  .metodo-lista h3{font-size:23px;letter-spacing:-.025em;margin:0 0 10px;line-height:1.3;max-width:550px}
+  .metodo-lista p{font-size:15.5px;color:var(--muted);line-height:1.65}
+  .metodo-picto{position:absolute;right:26px;top:24px;width:25px;height:25px;color:var(--wine);opacity:.8}
+  @media(max-width:600px){
+    .metodo-ilustracao{margin:0 -9px 24px}
+    .metodo-lista{gap:14px}
+    .metodo-lista>li{grid-template-columns:minmax(0,1fr);gap:15px;padding:22px;border-radius:15px}
+    .metodo-num{width:43px;height:43px;font-size:23px}
+    .metodo-lista h3{font-size:21px}
+    .metodo-lista p{font-size:15px;line-height:1.6}
+    .metodo-k{margin-right:0}
+    .metodo-picto{right:23px;top:29px;width:26px;height:26px}
+  }
+  
+  /* ---------- por dentro: as capas reais da biblioteca da área de membros ---------- */
+  .lib{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:980px;margin:0 auto}
+  .lib-it{display:grid;grid-template-columns:104px minmax(0,1fr);gap:24px;align-items:center;background:transparent;border:0;border-radius:0;padding:20px 24px 20px 20px}
+  
+  .lib-capa{position:relative;display:block;aspect-ratio:520/737;border-radius:3px 6px 6px 3px;overflow:hidden;background:var(--blue-light);box-shadow:0 16px 28px -18px rgba(48,62,73,.7)}
+  .lib-capa img{width:100%;height:100%;object-fit:contain}
+  .lib-kit{position:relative;aspect-ratio:520/737}
+  .lib-kit .lib-capa{position:absolute;inset:0}
+  .lib-kit .lib-capa:nth-child(1){transform:translateX(-12px) rotate(-8deg) scale(.86)}
+  .lib-kit .lib-capa:nth-child(2){transform:translateX(12px) rotate(8deg) scale(.86)}
+  .lib-plano{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--quiet)}
+  .lib-plano.pre{color:var(--wine)}
+  .lib-tx h3{font-size:18.5px;letter-spacing:-.02em;margin:6px 0 6px}
+  .lib-tx p{font-size:14.5px;color:var(--muted);line-height:1.55}
+
+  /* ---------- depoimentos ---------- */
+  .deps-selo{display:inline-flex;align-items:center;gap:9px;margin-top:20px;padding:6px 16px 6px 7px;border-radius:100px;background:var(--surface);border:1px solid var(--line);font-size:14px;color:var(--muted)}
+  .deps-selo b{color:var(--wine);font-weight:800}
+  .deps-selo .avs{display:inline-flex}
+  .deps-selo .avs i{display:block;width:24px;height:24px;border-radius:50%;overflow:hidden;border:2px solid var(--surface);margin-left:-8px}
+  .deps-selo .avs i:first-child{margin-left:0}
+  .deps-selo .avs img{width:100%;height:100%;object-fit:cover}
+  .deps-carousel{position:relative;max-width:560px;margin:0 auto}
+  .deps-track{overflow:hidden;display:flex;will-change:transform;transition:transform .32s cubic-bezier(.16,1,.3,1)}
+  .deps-track>.dep{width:100%;flex:0 0 100%;min-width:0}
+  .deps-controls{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:22px}
+  .dep-dots{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+  .dep-arrows{display:flex;gap:16px;align-items:center}
+  .dep-prev,.dep-next{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-strong);background:var(--bg);color:var(--wine);font-size:22px;line-height:1;cursor:pointer;font-weight:900;transition:background .18s,border-color .18s,color .18s;flex:0 0 auto}
+  .dep-prev:hover,.dep-next:hover{border-color:var(--wine);background:var(--wine-light)}
+  .dep-prev:disabled,.dep-next:disabled{opacity:.35;cursor:default}
+  .dep-prev:active,.dep-next:active{transform:translateY(1px)}
+  @media(min-width:880px){.deps-controls{flex-direction:row}.dep-arrows{gap:18px}}
+  .dep-dot{min-width:34px;padding:6px 12px;border-radius:100px;border:1px solid var(--line);background:transparent;color:var(--muted);font-weight:700;font-size:13px;cursor:pointer;transition:background .18s,border-color .18s,color .18s}
+  .dep-dot.is-on{border-color:var(--wine);background:var(--wine);color:var(--bg)}
+  @media(min-width:880px){.deps-carousel{max-width:640px}}
+  .dep{background:var(--surface);border:0;border-radius:12px;padding:28px 26px 22px;position:relative}
+  .dep .cc-quote{position:absolute;top:24px;left:26px;opacity:.8}
+  .dep p{padding-top:36px;font-size:16px;line-height:1.6;color:var(--ink);margin-bottom:18px}
+  .dep-foto{display:block;width:172px;max-width:62%;height:224px;object-fit:cover;border-radius:12px;margin:2px 0 20px;border:4px solid var(--bg);box-shadow:0 14px 26px -16px rgba(48,62,73,.6);transform:rotate(-1.4deg)}
+  .dep footer{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:14px}
+  .dep footer img{width:44px;height:44px;border-radius:50%;flex-shrink:0;object-fit:cover}
+  .dep cite{display:block;font-style:normal;font-weight:800;font-size:14.5px;color:var(--ink);line-height:1.3}
+  .dep cite small{display:block;font-weight:600;color:var(--quiet);font-size:12.5px;margin-top:1px}
+
+  /* ---------- oferta ---------- */
+  .band{padding:92px 0}
+  .board{background:linear-gradient(160deg,var(--wine) 0%,var(--wine-dark) 100%);border-radius:20px;box-shadow:var(--sh);padding:60px 44px 44px;color:var(--on-wine)}
+  .board .sec-head h2{color:var(--bg)}
+  .board .sec-head p{color:var(--on-wine)}
+  .planos{display:grid;grid-template-columns:1fr 1.05fr;gap:22px;max-width:840px;margin:0 auto;align-items:start}
+  .plano{position:relative;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:32px 26px 26px;box-shadow:0 30px 60px -30px rgba(20,8,14,.55);display:flex;flex-direction:column}
+  .plano.destaque{border:2px solid var(--blue)}
+  .pl-selo{position:absolute;top:-14px;left:22px;background:linear-gradient(135deg,#f7eff2,#ebdbe2);color:var(--wine);border:1px solid #d8bdc9;font-weight:800;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;padding:6px 14px;border-radius:100px}
+  .pl-nome{font-size:22px;margin-bottom:5px}
+  .pl-desc{font-size:14.5px;color:var(--muted);margin-bottom:16px}
+  .pl-de{display:block;font-size:13.5px;color:var(--quiet)}
+  .pl-por{display:block;font-weight:900;font-size:46px;line-height:1.05;letter-spacing:-.04em;color:var(--wine)}
+  .pl-por sup{font-size:19px;font-weight:800;margin-right:2px}
+  .pl-cond{display:block;font-size:13px;color:var(--muted);margin:5px 0 16px}
+  .pl-lista{list-style:none;margin:0 0 22px;border-top:1px solid var(--line);flex:1}
+  .pl-lista li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:11px;align-items:start;padding:11px 0;border-bottom:1px solid var(--line)}
+  .pl-ck{width:22px;height:22px;border-radius:50%;background:var(--wine);color:var(--bg);display:grid;place-items:center;margin-top:1px}
+  .pl-ck svg{width:11px;height:11px}
+  .pl-it b{display:block;font-size:14.5px;font-weight:800;line-height:1.35}
+  .pl-it small{display:block;font-size:13px;color:var(--muted);margin-top:1px;line-height:1.4}
+  .plano .cta{width:100%;font-size:15px;white-space:nowrap;text-align:center}
+  .plano .cta-essencial{background:linear-gradient(160deg,#94516d 0%,#82465D 45%,#633449 100%);border-color:#82465D;box-shadow:0 10px 0 #482535,0 16px 30px -12px rgba(99,52,73,.65),inset 0 1px 0 rgba(255,255,255,.24)}
+  .plano .cta-premium{background:var(--wine-dark);border-color:var(--wine-dark);box-shadow:0 12px 0 #3a2230,0 18px 34px -14px rgba(70,40,54,.75),inset 0 1px 0 rgba(255,255,255,.2)}
+  .plano .cta-premium:hover{background:#542838;border-color:#542838}
+  .offer-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;margin-top:28px;color:var(--on-wine);font-size:13px;font-weight:700}
+  .offer-trust span+span::before{content:"·";margin-right:18px;opacity:.6}
+
+  /* ===== modais da oferta (upgrade e bump), no formato do popup de upgrade da área ===== */
+  .ov{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(38,30,36,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .25s}
+  .ov.on{opacity:1;pointer-events:auto}
+  .sheet{position:relative;width:100%;max-width:480px;max-height:96dvh;overflow:auto;background:var(--bg);border-radius:20px;box-shadow:0 40px 80px -30px rgba(38,30,36,.6);padding:28px 26px 18px;transform:translateY(22px) scale(.98);transition:transform .32s cubic-bezier(.16,1,.3,1)}
+  .ov.on .sheet{transform:none}
+  .sheet-handle{display:none;width:44px;height:5px;border-radius:3px;background:var(--line);margin:0 auto 14px}
+  .sheet-close{position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:50%;border:0;background:var(--blue-light);color:var(--ink);display:grid;place-items:center;cursor:pointer;z-index:2}
+  .sheet-badge{display:inline-flex;align-items:center;gap:6px;background:var(--wine-light);color:var(--wine);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:6px 11px;border-radius:100px;margin-bottom:12px}
+  .sheet-badge svg{width:13px;height:13px}
+  .sheet h3{font-size:24px;line-height:1.2;letter-spacing:-.02em;margin-bottom:6px}
+  .sheet h3 em{font-style:normal;color:var(--wine)}
+  .sheet .sub{font-size:14.5px;color:var(--muted);margin-bottom:10px}
+  .sheet-list{list-style:none;margin:0 0 4px}
+  .sheet-list li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start;padding:8px 0;border-bottom:1px solid var(--line)}
+  .sheet-list li:last-child{border-bottom:0}
+  .sheet-list .pl-it b{font-size:14px}
+  .sheet-list .pl-it small{font-size:12.5px}
+  .sheet-price{text-align:center;margin:0;padding-top:12px;border-top:1px solid var(--line)}
+  .sheet-price .old{color:var(--quiet);text-decoration:line-through;font-weight:700;font-size:15px;margin-right:10px}
+  .sheet-price .new{font-weight:900;font-size:38px;letter-spacing:-.03em;color:var(--wine)}
+  .sheet-price .new sup{font-size:16px;font-weight:800;margin-right:2px}
+  .sheet-math{text-align:center;font-weight:700;font-size:13.5px;color:var(--ink);margin:2px 0 14px}
+  .sheet-cta{display:flex;width:100%;min-height:54px;font-size:16px}
+  .sheet-decline{display:block;margin:8px auto 0;padding:8px;font-size:14px;font-weight:600;color:var(--muted);text-decoration:underline;text-underline-offset:3px;text-align:center}
+  .sheet-alt{display:flex;align-items:center;justify-content:center;width:100%;min-height:48px;margin-top:10px;background:var(--bg);border:1px solid var(--line-strong);color:var(--ink);font-weight:800;font-size:15px;border-radius:100px;text-decoration:none;transition:border-color .18s,color .18s}
+  .sheet-alt:hover{border-color:var(--wine);color:var(--wine)}
+  .sheet-note{text-align:center;font-size:12.5px;color:var(--quiet);margin-top:8px}
+  .ov a[data-checkout]{cursor:pointer}
+  .sheet-center{text-align:center}
+  .sheet-gift{display:flex;justify-content:center;margin:4px 0 8px;color:var(--blue)}
+  .sheet-gift svg{width:40px;height:40px}
+  .bump-item>b{font-size:17px;font-weight:800;display:block}
+  .bump-item p{font-size:14px;color:var(--muted);max-width:340px;margin:2px auto 4px;line-height:1.45}
+  .bump-sep{font-size:13px;color:var(--quiet)}
+  .bump-sep b{color:var(--wine)}
+  .bump-plus{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--blue-light);color:var(--wine);font-weight:800;margin:10px auto;font-size:16px}
+  .bump-total{font-weight:800;font-size:14px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+  .bump-price{font-weight:900;font-size:40px;letter-spacing:-.03em;line-height:1;color:var(--wine);margin:4px 0 14px}
+  @media(max-width:620px){
+    .ov{align-items:flex-end;padding:0}
+    .sheet{max-width:none;border-radius:20px 20px 0 0;transform:translateY(42px);max-height:94dvh;padding:18px 20px 16px}
+    .sheet-handle{display:block}
+  }
+
+  /* Menú fixo de pie con el botón de compra (solo móvil). */
+  .fixed-menu{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:13px 16px;background:#ffffff;border-top:1px solid #e3d3db;box-shadow:0 14px 28px -18px rgba(30,20,30,.45)}
+  .fixed-menu-buy{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;max-width:560px;min-height:52px;padding:12px 22px;border-radius:100px;background:linear-gradient(160deg,#94516d 0%,#82465D 45%,#633449 100%);color:#fff;font-weight:900;font-size:15px;text-decoration:none;box-shadow:0 10px 0 #482535,0 18px 34px -12px rgba(99,52,73,.65),inset 0 1px 0 rgba(255,255,255,.24);white-space:nowrap}
+  .fixed-menu-buy:hover{transform:translateY(-1px)}
+  .fixed-menu-buy:active{transform:translateY(2px);box-shadow:0 3px 0 #482535,0 10px 18px -10px rgba(99,52,73,.55)}
+  .fixed-menu-buy:focus-visible{outline:3px solid #fff;outline-offset:2px}
+  @media(min-width:1000px){.fixed-menu{display:none}}
+  @media(max-width:400px){.fixed-menu{padding:11px 12px}.fixed-menu-buy{font-size:13.5px;min-height:48px;padding:10px 16px}}
+  body{padding-bottom:0}
+  @media(max-width:999px){.finale{padding-bottom:120px}}
+    /* ---------- garantia ---------- */
+  .gar{max-width:780px;margin:0 auto}
+  .gar-card{display:grid;grid-template-columns:128px minmax(0,1fr);gap:34px;align-items:center;background:#eaf4ff;border:0;border-radius:12px;padding:36px 40px}
+  .gar-seal{width:124px;height:124px;position:relative;display:flex;align-items:center;justify-content:center}
+  .gar-seal-ring{position:absolute;inset:0;animation:girasel 22s linear infinite}
+  @keyframes girasel{to{transform:rotate(360deg)}}
+  .gar-seal-centro{position:relative;z-index:2;width:78px;height:78px;background:var(--wine);color:var(--bg);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+  .gar-seal-centro strong{font-weight:900;font-size:32px;line-height:1;letter-spacing:-.03em}
+  .gar-seal-centro span{font-size:9.5px;margin-top:2px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--on-wine)}
+  .gar h3{font-size:26px;margin-bottom:10px}
+  .gar p{color:var(--muted);font-size:16px}
+  .gar p+p{margin-top:10px}
+  .gar p b{color:var(--ink);font-weight:800}
+
+  /* ---------- faq ---------- */
+  .faq{max-width:760px;margin:0 auto;background:transparent;border:0;border-radius:0;padding:4px 0}
+  details{border-bottom:1px solid var(--line)}
+  details:last-child{border-bottom:0}
+  summary{list-style:none;cursor:pointer;padding:20px 0;font-weight:800;font-size:16.5px;letter-spacing:-.01em;line-height:1.35;display:flex;justify-content:space-between;gap:16px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary:hover{color:var(--wine)}
+  summary .ic{flex:0 0 auto;width:9px;height:9px;margin-right:4px;border-right:2px solid var(--quiet);border-bottom:2px solid var(--quiet);transform:rotate(45deg) translateY(-2px);transition:transform .2s,border-color .2s}
+  details[open] summary .ic{transform:rotate(-135deg);border-color:var(--wine)}
+  details .ans{padding:0 0 20px;color:var(--muted);font-size:15.5px;line-height:1.65}
+
+  /* ---------- fecho: o banner da área de membros (foto + véu vinho) ---------- */
+  .finale{padding:92px 0}
+  .banner{position:relative;overflow:hidden;min-height:440px;display:flex;align-items:center;border-radius:20px;background:var(--wine);isolation:isolate}
+  .bn-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:78% center;z-index:-2}
+  .bn-veil{position:absolute;inset:0;z-index:-1;background:linear-gradient(96deg,rgba(99,52,73,.96) 0%,rgba(99,52,73,.86) 38%,rgba(99,52,73,.5) 62%,rgba(99,52,73,.14) 82%,rgba(99,52,73,0) 100%)}
+  .bn-tx{padding:60px 56px;max-width:600px;color:var(--bg);display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+  .bn-eyb{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px}
+  .bn-tx h2{font-size:clamp(32px,4vw,48px);font-weight:800;line-height:1.08;letter-spacing:-.035em;color:var(--bg)}
+  .bn-sub{font-size:17.5px;line-height:1.55;color:#f9eff2;margin-top:18px;max-width:420px}
+  .bn-cta{margin-top:30px;display:inline-flex;align-items:center;gap:12px;max-width:100%;background:var(--bg);color:var(--wine);border-radius:100px;padding:9px 24px 9px 9px;text-decoration:none;text-align:left;box-shadow:0 18px 34px -18px rgba(20,8,14,.7);transition:transform .18s}
+  .bn-cta:hover{transform:translateY(-2px)}
+  .bn-cta-ic{width:44px;height:44px;border-radius:50%;background:var(--wine);color:var(--bg);display:grid;place-items:center;flex:0 0 auto}
+  .bn-cta-ic svg{width:18px;height:18px}
+  .bn-cta b{display:block;font-size:16px;font-weight:800;line-height:1.3;color:var(--wine)}
+  .bn-cta small{display:block;font-size:12.5px;color:var(--muted)}
+  .bn-cta span:last-child{min-width:0}
+
+  .rodape{border-top:1px solid var(--line);text-align:center;padding:40px 24px 48px;font-size:13px;color:var(--quiet);line-height:1.8}
+  .rodape img{width:34px;height:34px;margin:0 auto 14px}
+  @media(max-width:999px){.rodape{padding-bottom:160px}}
+  .rodape p{max-width:720px;margin:0 auto}
+  .rodape p+p{margin-top:6px}
+  .rodape b{color:var(--muted);font-weight:800}
+
+  @media(max-width:880px){
+    section,.band,.finale{padding:64px 0}
+    .conseq{padding:72px 0}
+    .quem-wrap,.lib,.deps,.metodo-grid,.conseq-split{grid-template-columns:minmax(0,1fr)}
+    .conseq-stats{grid-template-columns:minmax(0,1fr);gap:28px}
+    .conseq-stat{border-left:0;padding:0}
+    .conseq-split{gap:36px;margin-top:48px;padding-top:44px}
+    .metodo-grid{gap:40px}
+    .board{padding:48px 22px 34px}
+    .planos{grid-template-columns:minmax(0,1fr);gap:34px}
+    .plano{padding:30px 22px 22px}
+  }
+  @media(max-width:620px){
+    .wrap{padding:0 18px}
+    .marca-top{padding-top:20px}
+    .marca-top img{width:176px}
+    .hero{padding-bottom:60px}
+    .hero .rating{margin-top:26px;font-size:12px;gap:6px;padding:6px 12px 6px 6px}
+    .hero .hsub{font-size:16.5px}
+    .cta-hero{width:100%;max-width:400px;padding-right:18px}
+    .cta-hero b{font-size:15.5px}
+    .cta-hero small{font-size:12px}
+    .sec-head{margin-bottom:38px}
+    .sec-head p{font-size:16px}
+    .lib-it{grid-template-columns:78px minmax(0,1fr);gap:18px;padding:16px 18px 16px 16px}
+    .lib-tx h3{font-size:17px}
+    .lib-tx p{font-size:14px}
+        .conseq-caso{padding:26px 22px 20px}
+    .gar-card{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center;gap:18px;padding:32px 22px}
+    .faq{padding:2px 18px}
+    summary{font-size:15.5px}
+    .banner{min-height:auto;border-radius:16px}
+    .bn-bg{object-position:center 46%}
+    .bn-veil{background:linear-gradient(180deg,rgba(99,52,73,.95) 0%,rgba(99,52,73,.76) 40%,rgba(99,52,73,.46) 72%,rgba(99,52,73,.84) 100%)}
+    .bn-tx{padding:34px 24px 36px;max-width:none}
+    .bn-tx h2{font-size:32px}
+    .bn-sub{font-size:16px;margin-top:14px}
+    .bn-cta{margin-top:24px;width:100%;padding-right:16px}
+    .bn-cta b{font-size:14.5px}
+    .bn-cta small{font-size:11.5px}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-window">
+  <div class="topbar-track">
+    <div class="topbar-group"><b>SÓ HOJE</b><span class="sep">·</span><b>R$10</b><s>R$197</s><span class="sep">·</span><span class="off">95% OFF</span><span class="sep">·</span><span class="fim">acesso imediato</span></div>
+    <div class="topbar-group" aria-hidden="true"><b>SÓ HOJE</b><span class="sep">·</span><b>R$10</b><s>R$197</s><span class="sep">·</span><span class="off">95% OFF</span><span class="sep">·</span><span class="fim">acesso imediato</span></div>
+  </div>
+  </div>
+  <a class="topbar-cta" href="#oferta">Quero destravar meu bebê <span aria-hidden="true">→</span></a>
+</div>
+
+<header class="hero">
+  <div class="marca-top"><img src="assets/membros/logo-final.svg" width="749" height="190" alt="Protocolo Bebê Tranquilo"></div>
+  <div class="wrap">
+    <div class="rating">
+      <span class="avs"><i><img src="av_camila.png" alt=""></i><i><img src="av_renata.png" alt=""></i><i><img src="av_h1.png" alt=""></i><i><img src="av_h2.png" alt=""></i></span>
+      <span class="stars">★★★★★</span> <span><b>+2.322 mamães</b> já aplicaram</span>
+    </div>
+    <p class="rating-sub">Método baseado em estudo clínico</p>
+    <h1>Em <span class="hl">15 minutos por dia</span>, seu bebê <em class="hl">solta os gases</em>, <span class="nb">faz cocô</span> e <span class="hl">dorme em paz</span>.</h1>
+    <p class="hsub">A <b>Técnica da Barriguinha Molinha</b> destrava o intestino do seu bebê de <span class="nb">0 a 6 meses</span>. Sem remédio. Sem cortar leite. Sem esperar passar com <span class="nb">3 meses</span>.</p>
+
+    <div class="vsl" id="vsl" role="button" tabindex="0" aria-label="Assistir ao vídeo">
+      <img class="vsl-poster" src="poster.jpg" alt="Bebê com a barriga estufada, se contorcendo de cólica">
+      <div class="vsl-shade"></div>
+      <span class="vsl-spin" aria-hidden="true"></span>
+      <button class="vsl-sound" type="button" aria-label="Ativar ou desativar o som" tabindex="-1">
+        <svg class="ic-on" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg>
+        <svg class="ic-off" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+      </button>
+      <button class="vsl-btn" type="button" aria-label="Ativar o som do vídeo" tabindex="-1">
+        <svg class="vb-sound" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a9 9 0 0 1 0 14"/></svg>
+        <svg class="vb-play" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <div class="vsl-tag">toque para ativar o som</div>
+    </div>
+
+    <a href="#oferta" class="cta-hero">
+      <span class="cta-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span>
+      <span><b>Quero meu bebê livre de cólicas!</b><small>Acesso liberado em menos de 10 segundos</small></span>
+    </a>
+  </div>
+</header>
+
+<!-- PRA QUEM É -->
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyb">pensado pra mãe exausta</span><h2>Esse protocolo é pra você que quer <span class="mk">resolver de verdade</span></h2><p>Sem mais palpite, sem mais farmácia, sem esperar três meses pra "passar sozinho".</p></div>
+    <div class="quem-wrap">
+      <div class="quem-col">
+        <p class="quem-pill"><span class="qp-tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>É pra você se</p>
+        <ul class="quem">
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M3.2 13.3C4 12.5 4.8 12.9 5.7 14L10.1 18.6C13.5 13.9 18.1 8.1 24.6 3.8C25.2 3.4 25.9 3.8 25.2 4.7C19.7 10.5 15.1 16.8 11.8 23.1C11.2 24.3 10.1 24.5 9.1 23.4C6.8 20.7 4.8 17.9 3.1 15.5C2.6 14.7 2.6 13.9 3.2 13.3Z"/><path d="M12.6 21.8Q18.4 12.2 24.8 6" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round" opacity=".45"/></svg></span>Seu bebê se contorce, faz força, fica vermelho e não consegue fazer cocô</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M3.2 13.3C4 12.5 4.8 12.9 5.7 14L10.1 18.6C13.5 13.9 18.1 8.1 24.6 3.8C25.2 3.4 25.9 3.8 25.2 4.7C19.7 10.5 15.1 16.8 11.8 23.1C11.2 24.3 10.1 24.5 9.1 23.4C6.8 20.7 4.8 17.9 3.1 15.5C2.6 14.7 2.6 13.9 3.2 13.3Z"/><path d="M12.6 21.8Q18.4 12.2 24.8 6" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round" opacity=".45"/></svg></span>A barriguinha vive dura, estufada, e ele solta gases chorando</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M3.2 13.3C4 12.5 4.8 12.9 5.7 14L10.1 18.6C13.5 13.9 18.1 8.1 24.6 3.8C25.2 3.4 25.9 3.8 25.2 4.7C19.7 10.5 15.1 16.8 11.8 23.1C11.2 24.3 10.1 24.5 9.1 23.4C6.8 20.7 4.8 17.9 3.1 15.5C2.6 14.7 2.6 13.9 3.2 13.3Z"/><path d="M12.6 21.8Q18.4 12.2 24.8 6" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round" opacity=".45"/></svg></span>Já tentou Luftal, simeticona, probiótico, e nada resolveu de verdade</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M3.2 13.3C4 12.5 4.8 12.9 5.7 14L10.1 18.6C13.5 13.9 18.1 8.1 24.6 3.8C25.2 3.4 25.9 3.8 25.2 4.7C19.7 10.5 15.1 16.8 11.8 23.1C11.2 24.3 10.1 24.5 9.1 23.4C6.8 20.7 4.8 17.9 3.1 15.5C2.6 14.7 2.6 13.9 3.2 13.3Z"/><path d="M12.6 21.8Q18.4 12.2 24.8 6" fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round" opacity=".45"/></svg></span>O pediatra disse que é normal e "vai passar com 3 meses"</li>
+        </ul>
+      </div>
+      <div class="quem-col no">
+        <p class="quem-pill"><span class="qp-tick" aria-hidden="true">×</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Não é pra você se</p>
+        <ul class="quem">
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M5.1 4.8C5.9 4.2 6.8 4.6 7.5 5.4C12 10 17.6 15.8 22.9 21.8C23.6 22.7 22.9 23.8 22 23.2C15.7 18.1 10.5 12.7 5 7.1C4.2 6.2 4.4 5.3 5.1 4.8Z"/><path d="M22.5 4.4C23.3 4.3 23.7 5.3 23 6.2C18.2 12.1 12.4 18.5 6.4 23.1C5.5 23.8 4.5 22.8 5.2 21.9C10.1 15.7 16.4 8.6 21.2 5C21.7 4.6 22.1 4.4 22.5 4.4Z"/></svg></span>Você acha tudo bem o bebê sofrer enquanto "amadurece sozinho"</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M5.1 4.8C5.9 4.2 6.8 4.6 7.5 5.4C12 10 17.6 15.8 22.9 21.8C23.6 22.7 22.9 23.8 22 23.2C15.7 18.1 10.5 12.7 5 7.1C4.2 6.2 4.4 5.3 5.1 4.8Z"/><path d="M22.5 4.4C23.3 4.3 23.7 5.3 23 6.2C18.2 12.1 12.4 18.5 6.4 23.1C5.5 23.8 4.5 22.8 5.2 21.9C10.1 15.7 16.4 8.6 21.2 5C21.7 4.6 22.1 4.4 22.5 4.4Z"/></svg></span>Está procurando mais um remédio milagroso de farmácia</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M5.1 4.8C5.9 4.2 6.8 4.6 7.5 5.4C12 10 17.6 15.8 22.9 21.8C23.6 22.7 22.9 23.8 22 23.2C15.7 18.1 10.5 12.7 5 7.1C4.2 6.2 4.4 5.3 5.1 4.8Z"/><path d="M22.5 4.4C23.3 4.3 23.7 5.3 23 6.2C18.2 12.1 12.4 18.5 6.4 23.1C5.5 23.8 4.5 22.8 5.2 21.9C10.1 15.7 16.4 8.6 21.2 5C21.7 4.6 22.1 4.4 22.5 4.4Z"/></svg></span>Não tem 15 minutos por dia pra aplicar a técnica</li>
+          <li><span class="qk" aria-hidden="true"><svg viewBox="0 0 28 28" fill="currentColor"><path d="M5.1 4.8C5.9 4.2 6.8 4.6 7.5 5.4C12 10 17.6 15.8 22.9 21.8C23.6 22.7 22.9 23.8 22 23.2C15.7 18.1 10.5 12.7 5 7.1C4.2 6.2 4.4 5.3 5.1 4.8Z"/><path d="M22.5 4.4C23.3 4.3 23.7 5.3 23 6.2C18.2 12.1 12.4 18.5 6.4 23.1C5.5 23.8 4.5 22.8 5.2 21.9C10.1 15.7 16.4 8.6 21.2 5C21.7 4.6 22.1 4.4 22.5 4.4Z"/></svg></span>Seu bebê já passou dos 6 meses</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Estudos: contexto e orientação -->
+<section class="evidence" id="bt-importante">
+  <div class="wrap evidence-layout">
+    <div class="evidence-lead">
+      <span class="evidence-label">quando o choro se repete</span>
+      <h2>“Vai passar” não ajuda quando ele está <em>chorando no seu colo.</em></h2>
+      <p><strong>Você já conhece essa cena.</strong> Ele encolhe as perninhas, faz força, fica vermelho. Você pega no colo, tenta fazer arrotar, anda pela casa. O choro continua.</p>
+      <p>As gotinhas não ajudaram. Alguém diz que “é normal, vai passar”. Mas quem atravessa a madrugada com ele no colo é você.</p>
+      <p>E, no cansaço, vem a pergunta: “Será que estou fazendo alguma coisa errada?” <strong>O choro dele não faz de você uma mãe ruim.</strong></p>
+      <p>O <strong>Protocolo Bebê Tranquilo</strong> foi organizado para você ter por onde começar: um guia ilustrado com 9 movimentos, mostrando onde colocar as mãos, como acompanhar a sequência e quando parar.</p>
+      <a href="#bt-metodo" class="cta cream">Quero entender o passo a passo <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="evidence-clippings">
+      <figure class="evidence-clipping">
+        <img src="assets/estudios/print-1-noruega-pubmed.webp" alt="Print do estudo noruegués em PubMed sobre cólica e sono na infância." loading="lazy">
+        <figcaption><strong>86.724 crianças.</strong> Choro forte e sono difícil costumam vir juntos. <span>BMC Pediatrics · 2021</span></figcaption>
+      </figure>
+      <figure class="evidence-clipping">
+        <img src="assets/estudios/print-3-cochrane.webp" alt="Print da revisão Cochrane sobre substâncias para o alívio da dor em bebês com cólicas." loading="lazy">
+        <figcaption><strong>As gotinhas não ajudaram?</strong> Nesta revisão, a simeticona não mostrou benefício sobre placebo. <span>Cochrane · 2016</span></figcaption>
+      </figure>
+      <figure class="evidence-clipping">
+        <img src="assets/estudios/print-4-bbc.webp" alt="Print da BBC News Brasil sobre os benefícios da massagem em bebês." loading="lazy">
+        <figcaption><strong>Um cuidado que começa nas suas mãos.</strong> <span>BBC News Brasil · 2021</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="metodo" id="bt-metodo">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyb">do guia para as suas mãos</span><h2>Saiba onde colocar a mão.<br>Qual movimento fazer. E quando parar.</h2><p>Abra o guia no celular e acompanhe as ilustrações. Você não precisa decorar a sequência nem assistir a um curso inteiro antes de começar.</p></div>
+    <figure class="metodo-ilustracao">
+      <img src="assets/metodo-ilustracao-crop.webp" width="2124" height="619" loading="lazy" alt="Ilustração da técnica: mãe segurando o bebê calmo, as mãos fazendo os movimentos na barriguinha e a ficha acompanhada do celular.">
+    </figure>
+    <div class="metodo-etapas">
+      <ol class="metodo-lista">
+        <li><span class="metodo-num">1</span><svg class="metodo-picto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.4 5.4 0 0 0-7.7 0L12 5.7l-1.1-1.1a5.4 5.4 0 0 0-7.7 7.7L12 21l8.8-8.7a5.4 5.4 0 0 0 0-7.7Z"/></svg><div><span class="metodo-k">antes de tocar</span><h3>Escolha um momento em que ele esteja calmo</h3><p>A ficha orienta a preparar as mãos e o ambiente e a respeitar o intervalo após a mamada. A sequência não deve ser feita no auge do choro.</p></div></li>
+        <li><span class="metodo-num">2</span><svg class="metodo-picto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5Q7 3 12 6Q17 3 21 5.5V20Q17 17.5 12 20Q7 17.5 3 20ZM12 6V20"/></svg><div><span class="metodo-k">com o guia aberto</span><h3>Acompanhe os 9 movimentos, um por vez</h3><p>Veja no desenho onde posicionar as mãos e siga as orientações de pressão, direção e tempo. Do primeiro contato ao trabalho das perninhas, cada etapa está explicada.</p></div></li>
+        <li><span class="metodo-num">3</span><svg class="metodo-picto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4V2h6v2M9 10h6M9 14h6M9 18h4"/></svg><div><span class="metodo-k">nas próximas vezes</span><h3>Deixe a ficha de 15 minutos por perto</h3><p>Salve no celular ou imprima. Ela reúne a sequência em uma página, para consultar sem procurar tudo de novo. Os 15 minutos organizam a prática; não são uma promessa de alívio nesse prazo.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE VOCÊ RECEBE -->
+<section class="alt" id="bt-protocolo">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyb">por dentro do protocolo</span><h2>Um guia ilustrado que você lê em 20 minutos e aplica <span class="mk">hoje à noite</span></h2><p>Nada de curso longo pra assistir. É material escrito e ilustrado, passo a passo, pra abrir no celular com uma mão só enquanto o bebê está no berço.</p></div>
+    <div class="lib">
+      <article class="lib-it">
+        <span class="lib-capa"><img src="assets/capas-2026-09/guia.webp" width="520" height="737" loading="lazy" alt="Capa do guia da Técnica da Barriguinha Molinha"></span>
+        <div class="lib-tx"><span class="lib-plano">nos dois planos</span><h3>Os 9 movimentos ilustrados</h3><p>A sequência completa da Técnica da Barriguinha Molinha: o nome, o ponto exato, a pressão e o tempo de cada movimento, com desenho de onde a sua mão entra.</p></div>
+      </article>
+      <article class="lib-it">
+        <span class="lib-capa"><img src="assets/capas-2026-09/ficha.webp" width="520" height="737" loading="lazy" alt="Capa da Ficha de 15 minutos"></span>
+        <div class="lib-tx"><span class="lib-plano">nos dois planos</span><h3>Ficha de 15 minutos</h3><p>Uma página só, pra imprimir ou deixar salva no celular: a ordem dos movimentos na sequência certa, sem precisar reler o guia inteiro.</p></div>
+      </article>
+      <article class="lib-it">
+        <span class="lib-capa"><img src="assets/capas-2026-09/sono.webp" width="520" height="737" loading="lazy" alt="Capa de O Toque do Sono Inteiro"></span>
+        <div class="lib-tx"><span class="lib-plano pre">no Premium</span><h3>O Toque do Sono Inteiro</h3><p>Pra manter o intestino regulado depois que a crise passa, fortalecer o vínculo e ajudar o bebê a dormir melhor.</p></div>
+      </article>
+      <article class="lib-it">
+        <span class="lib-capa"><img src="assets/capas-2026-09/plantao.webp" width="520" height="737" loading="lazy" alt="Capa do Plantão das 3 da Manhã"></span>
+        <div class="lib-tx"><span class="lib-plano pre">no Premium</span><h3>Plantão das 3 da Manhã</h3><p>Pra hora em que ele não deixa nem tocar na barriga. A escada do alívio, movimento por movimento, sem acordar a casa.</p></div>
+      </article>
+      <article class="lib-it">
+        <span class="lib-capa"><img src="assets/capas-2026-09/mapa.webp" width="520" height="737" loading="lazy" alt="Capa do Mapa do Choro"></span>
+        <div class="lib-tx"><span class="lib-plano pre">no Premium</span><h3>Mapa do Choro</h3><p>Gases, cólica ou disquesia? Aprenda a diferenciar e a palpar a barriga do bebê como a maior especialista dele.</p></div>
+      </article>
+      <article class="lib-it">
+        <span class="lib-kit">
+          <span class="lib-capa"><img src="assets/capas-2026-09/kit-2-plano-alimentar-anticolica-azul.webp" width="520" height="737" loading="lazy" alt=""></span>
+          <span class="lib-capa"><img src="assets/capas-2026-09/kit-3-introducao-alimentar-azul.webp" width="520" height="737" loading="lazy" alt=""></span>
+          <span class="lib-capa"><img src="assets/capas-2026-09/pega.webp" width="520" height="737" loading="lazy" alt="Capas dos 3 guias do Kit Alimentação Sem Cólica"></span>
+        </span>
+        <div class="lib-tx"><span class="lib-plano pre">no Premium</span><h3>Kit Alimentação Sem Cólica</h3><p>3 guias: pega da amamentação, plano alimentar anticólica e introdução alimentar.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="eyb">quem já aplicou</span><h2>Mães que fizeram a sequência <span class="mk">na primeira noite</span></h2><span class="deps-selo"><span class="avs"><i><img src="av_camila.png" alt="" loading="lazy"></i><i><img src="av_renata.png" alt="" loading="lazy"></i><i><img src="av_h1.png" alt="" loading="lazy"></i></span><span><b>+2.322 mamães</b> já aplicaram</span></span></div>
+    <div class="deps-carousel" aria-roledescription="carousel">
+      <div class="deps-track">
+        <figure class="dep">
+          <span class="cc-quote" aria-hidden="true"></span>
+          <p>Marquei no relógio porque eu não ia acreditar depois. O Miguel tava empedrado de choro desde as onze, eu já tinha tentado bicicletinha, colo, tudo. Comecei a sequência e em 14 minutos ele soltou tudo e apagou. Chorei junto, mas de alívio.</p>
+          <img class="dep-foto" style="object-position:50% 64%" src="dep-julia.jpg" alt="Foto que a Julia enviou do Miguel dormindo">
+          <footer>
+            <img src="av_camila.png" alt="">
+            <cite>Julia<small>mãe do Miguel, 1 mês</small></cite>
+          </footer>
+        </figure>
+        <figure class="dep">
+          <span class="cc-quote" aria-hidden="true"></span>
+          <p>Confesso que comprei achando que ia ser mais uma coisa que não funciona. Faço os movimentos depois do banho, virou parte da rotina. O Davi agora dorme muito mais tranquilo, não acorda mais se contorcendo de meia em meia hora.</p>
+          <img class="dep-foto" style="object-position:50% 34%" src="dep-andressa.jpg" alt="Foto que a Andressa enviou do Davi dormindo">
+          <footer>
+            <img src="av_renata.png" alt="">
+            <cite>Andressa<small>mãe do Davi, 2 meses</small></cite>
+          </footer>
+        </figure>
+        <figure class="dep">
+          <span class="cc-quote" aria-hidden="true"></span>
+          <p>Comprei na desconfiança, porque nada parava aquele choro. Fechei a primeira noite fazendo a sequência depois do banho e, em vez das duas horas de berreiro, ele apagou no meu peito. Hoje a barriguinha faz parte da nossa rotina de noite.</p>
+          <img class="dep-foto" style="object-position:50% 38%" src="dep-beatriz-foto.jpg" alt="Foto que a Beatriz enviou do bebê dormindo no colo dela">
+          <footer>
+            <img src="av-beatriz.jpg" alt="">
+            <cite>Beatriz<small>mãe de Noah, 2 meses</small></cite>
+          </footer>
+        </figure>
+        <figure class="dep">
+          <span class="cc-quote" aria-hidden="true"></span>
+          <p>Eu pensava que o choro da tarde era só idade, que ia passar com o tempo. A primeira vez que fechei os movimentos do guia, na mesma semana, o João Gabriel ficou mais calmo e largou gases sozinho, sem eu precisar mil trucos. Não me arrependo de ter dado a chance.</p>
+          <img class="dep-foto" style="object-position:50% 40%" src="dep-adrielly.jpg" alt="Foto que a Adrielly enviou do João Gabriel acordado na cama">
+          <footer>
+            <img src="av-adrielly.jpg" alt="">
+            <cite>Adrielly<small>mãe de João Gabriel, 3 meses</small></cite>
+          </footer>
+        </figure>
+      </div>
+      <div class="deps-controls">
+        <div class="dep-dots">
+          <button class="dep-dot is-on" type="button" aria-label="Ir ao comentario da Julia">Julia</button>
+          <button class="dep-dot" type="button" aria-label="Ir ao comentario da Andressa">Andressa</button>
+          <button class="dep-dot" type="button" aria-label="Ir ao comentario da Beatriz">Beatriz</button>
+          <button class="dep-dot" type="button" aria-label="Ir ao comentario da Adrielly">Adrielly</button>
+        </div>
+        <div class="dep-arrows">
+          <button class="dep-prev" type="button" aria-label="Anterior">‹</button>
+          <button class="dep-next" type="button" aria-label="Seguinte">›</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section class="band" id="oferta">
+  <div class="wrap">
+    <div class="board">
+      <div class="sec-head"><span class="eyb pill-claro">escolha como quer começar</span><h2>Dois jeitos de destravar a barriga do seu bebê</h2><p>Pagamento único, sem mensalidade. O acesso chega no seu e-mail em segundos.</p></div>
+
+      <div class="planos">
+        <div class="plano">
+          <h3 class="pl-nome">Plano Essencial</h3>
+          <p class="pl-desc">O guia da técnica pra você aplicar hoje à noite.</p>
+          <span class="pl-de">Preço normal <s>R$97</s></span>
+          <span class="pl-por"><sup>R$</sup>10</span>
+          <span class="pl-cond">Pagamento único · acesso por 1 ano</span>
+          <ul class="pl-lista">
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Guia da Técnica da Barriguinha Molinha</b><small>os 9 movimentos ilustrados, na ordem exata</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Ficha de 15 minutos</b><small>uma página pra imprimir ou salvar no celular</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Acesso por 1 ano</b><small>no celular, sem mensalidade</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Garantia de 7 dias</b><small>se não for o que você esperava, devolvemos tudo</small></div></li>
+          </ul>
+          <a class="cta cta-essencial" id="btnEssencial" href="#oferta">Quero o Essencial por R$10</a>
+        </div>
+
+        <div class="plano destaque">
+          <span class="pl-selo">mais escolhido</span>
+          <h3 class="pl-nome">Plano Premium</h3>
+          <p class="pl-desc">Tudo que a mãe precisa pra atravessar os 6 primeiros meses.</p>
+          <span class="pl-de">Preço normal <s>R$197</s></span>
+          <span class="pl-por"><sup>R$</sup>39,90</span>
+          <span class="pl-cond">Pagamento único · acesso vitalício</span>
+          <ul class="pl-lista">
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Tudo do plano Essencial</b><small>o guia completo da técnica e a ficha de 15 minutos</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>O Toque do Sono Inteiro</b><small>pra manter o intestino regulado e melhorar o sono</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Plantão das 3 da Manhã</b><small>os movimentos de alívio rápido pra hora da crise</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Mapa do Choro</b><small>gases, cólica ou disquesia: como diferenciar</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Kit Alimentação Sem Cólica</b><small>3 guias bônus: pega da amamentação, plano alimentar anticólica e introdução alimentar</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Acesso vitalício</b><small>é seu pra sempre, inclusive no próximo filho</small></div></li>
+          <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Garantia de 7 dias</b><small>se não for o que você esperava, devolvemos tudo</small></div></li>
+          </ul>
+          <a class="cta cta-premium" id="btnPremium" href="#oferta">Quero o Premium por R$39,90</a>
+        </div>
+      </div>
+
+      <div class="offer-trust">
+        <span>Pagamento 100% seguro</span>
+        <span>Acesso em segundos</span>
+        <span>Pix ou cartão</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section>
+  <div class="wrap gar">
+    <div class="gar-card">
+      <div class="gar-seal" aria-hidden="true">
+        <svg class="gar-seal-ring" viewBox="0 0 120 120">
+          <defs><path id="anelSelo" d="M 60 60 m -50 0 a 50 50 0 1 1 100 0 a 50 50 0 1 1 -100 0"/></defs>
+          <text font-family="Nunito,sans-serif" font-weight="800" font-size="10.5" letter-spacing="2" fill="#82465d">
+            <textPath href="#anelSelo" startOffset="0">SATISFAÇÃO GARANTIDA · 7 DIAS · SEM RISCO · </textPath>
+          </text>
+        </svg>
+        <div class="gar-seal-centro"><strong>7</strong><span>dias</span></div>
+      </div>
+      <div>
+        <h3>Você não tem nada a perder.</h3>
+        <p>Aplica a Técnica da Barriguinha Molinha nos próximos 7 dias. Se a barriga do seu bebê não soltar, devolvemos o seu dinheiro sem fazer pergunta.</p>
+        <p><b>Você tem 7 dias pra testar.</b></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyb">perguntas frequentes</span><h2>As perguntas que toda mãe manda antes de começar</h2></div>
+    <div class="faq">
+      <details open>
+        <summary><span>Funciona com qualquer idade?</span><span class="ic"></span></summary>
+        <div class="ans">A técnica foi desenhada pro Intestino em Modo Soneca do recém-nascido até por volta dos 6 meses. Se o seu bebê tem entre 0 e 6 meses, é pra você.</div>
+      </details>
+      <details>
+        <summary><span>E se eu não tenho experiência? Posso machucar o bebê?</span><span class="ic"></span></summary>
+        <div class="ans">Não vai machucar. A pressão é leve, e o guia mostra ilustrado o ponto exato, a força exata e o tempo exato de cada movimento.</div>
+      </details>
+      <details>
+        <summary><span>Qual a diferença entre o Essencial e o Premium?</span><span class="ic"></span></summary>
+        <div class="ans">Os dois vêm com o guia completo da técnica, os 9 movimentos ilustrados e a ficha de 15 minutos. O Premium leva junto O Toque do Sono Inteiro, o Plantão das 3 da Manhã, o Mapa do Choro, os 3 guias do Kit Alimentação Sem Cólica e o acesso vitalício. No Essencial o acesso dura 1 ano.</div>
+      </details>
+      <details>
+        <summary><span>É curso em vídeo?</span><span class="ic"></span></summary>
+        <div class="ans">Não. É guia escrito e ilustrado, em PDF, pra abrir no celular ou imprimir. Foi feito assim de propósito: mãe de recém-nascido não tem duas horas pra assistir aula, tem 15 minutos e uma mão livre.</div>
+      </details>
+      <details>
+        <summary><span>Quanto tempo até ver resultado?</span><span class="ic"></span></summary>
+        <div class="ans">A maioria das mães relata alívio em horas. A regulação completa costuma vir em até 14 dias de aplicação contínua.</div>
+      </details>
+      <details>
+        <summary><span>Preciso comprar algum material ou óleo?</span><span class="ic"></span></summary>
+        <div class="ans">Sim, o uso de óleo é indicado. O material traz opções de óleos vegetais baratos que você provavelmente já tem em casa.</div>
+      </details>
+      <details>
+        <summary><span>Funciona se eu já dou remédio (Luftal, simeticona)?</span><span class="ic"></span></summary>
+        <div class="ans">Sim. O protocolo não substitui medicação prescrita pelo pediatra. Ele ativa o intestino do bebê pra que ele aprenda a funcionar sozinho.</div>
+      </details>
+      <details>
+        <summary><span>E se eu comprar e não funcionar pro meu bebê?</span><span class="ic"></span></summary>
+        <div class="ans">Você tem 7 dias de garantia incondicional. Se achar que não é pra você, manda mensagem pro suporte e o dinheiro volta na hora, sem pergunta.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FINALE: banner da área de membros -->
+<div class="finale">
+  <div class="wrap">
+    <div class="banner">
+      <img class="bn-bg" src="assets/membros/foto-banner-capa.jpg" width="1800" height="1004" alt="" loading="lazy">
+      <div class="bn-veil"></div>
+      <div class="bn-tx">
+        <span class="bn-eyb pill-claro">seu bebê não precisa esperar</span>
+        <h2>Ele não precisa passar por isso mais uma noite</h2>
+        <p class="bn-sub">Você chegou até aqui porque sabe que a cólica e a disquesia têm solução. O acesso é imediato e você tem 7 dias de garantia.</p>
+        <a href="#oferta" class="bn-cta">
+          <span class="bn-cta-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          <span><b>Quero destravar meu bebê agora</b><small>Acesso imediato · 7 dias de garantia · Pix ou cartão</small></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="fixed-menu">
+  <a class="fixed-menu-buy" href="#oferta">Quero destravar meu bebê</a>
+</div>
+<footer class="rodape">
+  <img src="assets/membros/icone-final.svg" width="200" height="200" alt="">
+  <p><b>Protocolo Bebê Tranquilo</b> · Técnica da Barriguinha Molinha. Este conteúdo tem caráter educativo e não substitui acompanhamento médico ou pediátrico. Os resultados variam de bebê para bebê. Em caso de quadro clínico, procure sempre o pediatra do seu filho.</p>
+  <p>© Protocolo Bebê Tranquilo · Todos os direitos reservados</p>
+</footer>
+
+<!-- MODAL: clicou no Essencial -> upgrade pro Premium por R$19,90 -->
+<div class="ov" id="ovUp" aria-hidden="true">
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="upTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <span class="sheet-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg> promoção desbloqueada</span>
+    <h3 id="upTitle">Leve TUDO do Premium pela metade do preço.</h3>
+    <p class="sub">Só nesta tela, pra quem escolheu o Essencial agora.</p>
+    <ul class="sheet-list">
+      <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>O Toque do Sono Inteiro</b><small>pra manter o intestino regulado e melhorar o sono</small></div></li>
+      <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Plantão das 3 da Manhã</b><small>os movimentos de alívio rápido pra hora da crise</small></div></li>
+      <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Mapa do Choro</b><small>gases, cólica ou disquesia: como diferenciar</small></div></li>
+      <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Kit Alimentação Sem Cólica</b><small>pega da amamentação, plano alimentar anticólica e introdução alimentar</small></div></li>
+      <li><span class="pl-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><div class="pl-it"><b>Acesso vitalício a tudo</b><small>no Essencial é 1 ano</small></div></li>
+    </ul>
+    <div class="sheet-price"><span class="old">R$39,90</span><span class="new"><sup>R$</sup>19,90</span></div>
+    <p class="sheet-math">Na prática: só R$9,90 a mais que o Essencial pra levar tudo.</p>
+    <a class="cta sheet-cta" data-checkout data-fbv="19.9" href="https://payment.ticto.app/OA43E33D0">SIM, QUERO MEU ACESSO</a>
+    <a class="sheet-decline" data-checkout data-fbv="10" href="https://payment.ticto.app/OB12E83DF">Não, prefiro só o Essencial por R$10 →</a>
+    <p class="sheet-note">Fechando esta tela, o Premium volta pro preço normal de R$39,90.</p>
+  </div>
+</div>
+
+<!-- MODAL: clicou no Premium -> bump de +R$9,90 -->
+<div class="ov" id="ovBump" aria-hidden="true">
+  <div class="sheet sheet-center" role="dialog" aria-modal="true" aria-labelledby="bumpTitle">
+    <button class="sheet-close" type="button" aria-label="Fechar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <span class="sheet-gift"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span>
+    <h3 id="bumpTitle">Promoção <em>desbloqueada!</em></h3>
+    <p class="sub">disponível apenas aqui e agora, leve também:</p>
+    <div class="bump-item"><b>O Ritual dos 3 Minutos</b><p>a sequência curta pra ele pegar no sono sozinho, sem colo e sem mamada</p><span class="bump-sep">vendido separado por <b>R$58</b></span></div>
+    <span class="bump-plus">+</span>
+    <div class="bump-item"><b>100 Faixas pra Ninar</b><p>ruído branco e canções que acalmam o bebê na hora de dormir</p><span class="bump-sep">vendido separado por <b>R$97</b></span></div>
+    <p class="bump-total">Tudo isso por apenas</p>
+    <div class="bump-price">+R$9,90</div>
+    <a class="cta sheet-cta" data-checkout data-fbv="49.8" href="https://payment.ticto.app/O9E5FB2A7">SIM, QUERO MEU ACESSO →</a>
+    <a class="sheet-alt" data-checkout data-fbv="39.9" href="https://payment.ticto.app/OBFF7B822">Não, quero só o Premium</a>
+    <p class="sheet-note">Fechando esta tela, essa promoção some e não volta mais.</p>
+  </div>
+</div>
+
+<script>
+/* Planos: modal de upgrade (clique no Essencial) e de bump (clique no Premium).
+   Os 4 checkouts da Ticto (08/09/2026):
+   R$10 OB12E83DF, R$19,90 OA43E33D0, R$39,90 OBFF7B822, R$49,80 O9E5FB2A7.
+   Saíram da Hotmart em 08/09 junto com o renome dos planos: o de R$10 virou
+   Essencial e o de R$39,90 virou Premium.
+   Os botões dos CARDS apontam pra #oferta de propósito: é o clique neles que
+   abre o modal. Link de checkout de verdade só DENTRO dos modais. Isso nasceu
+   por causa do UTMify, que sequestrava na captura qualquer clique em link de
+   domínio de checkout e navegava antes do modal abrir. O UTMify saiu em 06/09
+   e entrou o NexoFy, mas o padrão fica: sem ele não existe upsell nenhum.
+   A delegação fica no document porque script de tracking clona os <a> no load
+   e mata listener preso direto no elemento. */
+(function(){
+  var up=document.getElementById('ovUp'),bp=document.getElementById('ovBump');
+  function open(ov){ov.classList.add('on');ov.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
+  function close(ov){ov.classList.remove('on');ov.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+  document.addEventListener('click',function(e){
+    var t=e.target; if(!t||!t.closest)return;
+    if(t.closest('#btnEssencial')){e.preventDefault();open(up);return;}
+    if(t.closest('#btnPremium')){e.preventDefault();open(bp);return;}
+    if(t.closest('#ovBump .sheet-close')){close(bp);return;}
+    if(e.target===up)close(up);
+    if(e.target===bp)close(bp);
+  });
+  /* Proteção pra edição futura: link placeholder vira #pendente e o clique só
+     avisa, em vez de recarregar a página pro nada. */
+  document.querySelectorAll('.ov a[data-checkout]').forEach(function(a){
+    if((a.getAttribute('href')||'').indexOf('COLE_AQUI')>-1)a.setAttribute('href','#pendente');
+  });
+  /* Pixel dos checkouts na CAPTURA do document, não em onclick inline: script
+     de tracking pode parar a propagação do clique nesses links e o inline nunca
+     rodaria. fbLast é a trava de 1,5s contra disparo repetido, porque script que
+     decora o link reemite o mesmo clique e o InitiateCheckout duplicava. */
+  var fbLast=0;
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest?e.target.closest('.ov a[data-checkout]'):null;
+    if(!a)return;
+    var now=Date.now();
+    if(a.getAttribute('href')==='#pendente'){
+      e.preventDefault();e.stopPropagation();
+      if(now-fbLast>1500){fbLast=now;alert('Esse checkout ainda não foi criado na Ticto. Procure COLE_AQUI no index.html e cole o link da oferta.');}
+      return;
+    }
+    if(now-fbLast<1500)return;
+    fbLast=now;
+    try{fbq('track','InitiateCheckout',{value:parseFloat(a.dataset.fbv)||0,currency:'BRL'})}catch(_){}
+  },true);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){close(up);close(bp)}});
+})();
+</script>
+
+<script>
+/* VSL: começa mudo e sozinho (política de autoplay), só baixa o vídeo aqui e não
+   no carregamento da página. Um toque em qualquer lugar do quadro liga o som e
+   volta pro zero; depois disso o toque vira pausa/play. Sem barra de tempo pra
+   ninguém pular. Mesmo player da LP do amigurumi. */
+(function(){
+  var box=document.getElementById('vsl');if(!box)return;
+  var snd=box.querySelector('.vsl-sound');
+  var vid=document.createElement('video');
+  vid.preload='auto';vid.muted=true;vid.defaultMuted=true;vid.playsInline=true;vid.autoplay=true;
+  vid.setAttribute('autoplay','');vid.setAttribute('muted','');vid.setAttribute('playsinline','');vid.setAttribute('webkit-playsinline','');
+  box.appendChild(vid);
+  vid.src='vsl.mp4';
+  box.classList.add('muted','loading');
+  function tryplay(){var p=vid.play();if(p&&p.catch){p.catch(function(){box.classList.remove('loading');box.classList.add('paused');});}}
+  if('IntersectionObserver' in window){new IntersectionObserver(function(entries){if(entries[0].isIntersecting&&vid.muted&&vid.paused){tryplay();}},{threshold:.15}).observe(box);}
+  document.addEventListener('visibilitychange',function(){if(!document.hidden&&vid.muted&&vid.paused){tryplay();}});
+  vid.addEventListener('loadeddata',function(){box.classList.add('started');});
+  vid.addEventListener('playing',function(){box.classList.remove('loading');box.classList.add('started','playing');box.classList.remove('paused');});
+  vid.addEventListener('waiting',function(){box.classList.add('loading');});
+  vid.addEventListener('pause',function(){box.classList.remove('playing');box.classList.add('paused');});
+  vid.addEventListener('ended',function(){box.classList.remove('playing');box.classList.add('paused');});
+  function unmute(){vid.muted=false;box.classList.remove('muted');try{vid.currentTime=0;}catch(e){}tryplay();}
+  box.addEventListener('click',function(){if(box.classList.contains('muted')){unmute();}else if(vid.paused){tryplay();}else{vid.pause();}});
+  box.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();box.click();}});
+  if(snd){snd.addEventListener('click',function(e){e.stopPropagation();var wasMuted=vid.muted;vid.muted=!vid.muted;box.classList.toggle('muted',vid.muted);if(wasMuted){try{vid.currentTime=0;}catch(e){}tryplay();}});}
+  if(vid.readyState>=2){tryplay();}else{vid.addEventListener('canplay',tryplay,{once:true});}
+  tryplay();
+})();
+</script>
+<script>
+(function(){
+  var wrap=document.querySelector('.deps-carousel');
+  if(!wrap||!window.matchMedia) return;
+  var track=wrap.querySelector('.deps-track');
+  var slides=[].slice.call(track.children);
+  var n=slides.length; if(n<2){wrap.style.display='none';return;}
+  var prev=wrap.querySelector('.dep-prev'), next=wrap.querySelector('.dep-next');
+  var dots=[].slice.call(wrap.querySelectorAll('.dep-dot'));
+  var i=0, reduce=false;
+  try{ reduce=(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches); }catch(_e){}
+  var step=function(){
+    if(reduce){
+      // movimiento reducido: sin transform, muestra solo el slide activo (repinto garantizado)
+      slides.forEach(function(s,k){ s.style.display=(k===i)?'':'none'; });
+      return;
+    }
+    track.style.transform='translateX(-'+(i*100)+'%)';
+  };
+  var go=function(k){ i=(k+n*10)%n; step();
+    prev.disabled=(i===0); next.disabled=(i===n-1);
+    dots.forEach(function(d,k){d.classList.toggle('is-on',k===i);if(k===i)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current');});
+  };
+  prev.addEventListener('click',function(){go(i-1);});
+  next.addEventListener('click',function(){go(i+1);});
+  dots.forEach(function(d,k){d.addEventListener('click',function(){go(k);});});
+  // gestos táctiles
+  var x0=null;
+  track.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  track.addEventListener('touchend',function(e){
+    if(x0===null) return; var dx=e.changedTouches[0].clientX-x0; x0=null;
+    if(Math.abs(dx)>48){go(i+(dx<0?1:-1));}
+  },{passive:true});
+  // teclado
+  wrap.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='ArrowDown'){go(i+1);} else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){go(i-1);}
+  });
+  go(0);
+})();
+</script>
+
+</body>
+</html>
