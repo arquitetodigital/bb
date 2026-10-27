@@ -6,19 +6,66 @@
 <meta name="robots" content="noindex">
 <title>Protocolo Colinho sem Cólicas · Técnica da Barriguinha Molinha</title>
 
-<!-- Meta Pixel original -->
+<!-- Meta Pixel 1864125674573258 + rastreamento completo (fbclid, fbc, fbp, lid, UTMs, IDs de anúncio) -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1052093420867688');
-  fbq('track', 'PageView');
+(function(){
+  var PIXEL='1864125674573258';
+  var KEYS=['fbclid','lid','utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','ad_id','adset_id','campaign_id','ad_name','adset_name','campaign_name','placement','site_source_name','src','sck','xcod'];
+  var STORE='mt_attr',DAYS=90;
+  function setCookie(n,v,d){try{var h=location.hostname.split('.'),dom=h.length>1?';domain=.'+h.slice(-2).join('.'):'';document.cookie=n+'='+encodeURIComponent(v)+';path=/;max-age='+(d*86400)+';SameSite=Lax'+dom;if(document.cookie.indexOf(n+'=')<0)document.cookie=n+'='+encodeURIComponent(v)+';path=/;max-age='+(d*86400)+';SameSite=Lax';}catch(e){}}
+  function getCookie(n){var m=document.cookie.match('(?:^|; )'+n+'=([^;]*)');return m?decodeURIComponent(m[1]):''}
+  function uid(){return Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,10)}
+  var q=new URLSearchParams(location.search),now=Date.now(),attr={};
+  try{attr=JSON.parse(localStorage.getItem(STORE)||'{}')||{}}catch(e){}
+  var fresh={};KEYS.forEach(function(k){var v=q.get(k);if(v)fresh[k]=v});
+  if(Object.keys(fresh).length){fresh._t=now;fresh._landing=location.href.split('#')[0];fresh._ref=document.referrer||'';if(!attr._first)fresh._first=now;else fresh._first=attr._first;attr=fresh}
+  /* _fbc: fb.1.<timestamp>.<fbclid> */
+  var fbc=getCookie('_fbc');
+  if(fresh.fbclid){var cur=fbc.split('.').slice(3).join('.');if(cur!==fresh.fbclid){fbc='fb.1.'+now+'.'+fresh.fbclid}}
+  if(fbc)setCookie('_fbc',fbc,DAYS);
+  /* _fbp: fb.1.<timestamp>.<random> */
+  var fbp=getCookie('_fbp');
+  if(!fbp){fbp='fb.1.'+now+'.'+Math.floor(Math.random()*1e10);setCookie('_fbp',fbp,DAYS)}
+  if(!attr.external_id){attr.external_id=getCookie('mt_eid')||uid()}
+  setCookie('mt_eid',attr.external_id,365);
+  attr.fbc=fbc;attr.fbp=fbp;
+  try{localStorage.setItem(STORE,JSON.stringify(attr))}catch(e){}
+  window.metaAttr=attr;
+
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init',PIXEL,{external_id:attr.external_id},{agent:'lovable'});
+
+  function base(){var p={content_name:document.title,page_url:location.href.split('#')[0]};['utm_source','utm_medium','utm_campaign','utm_content','utm_term','ad_id','adset_id','campaign_id','placement','lid'].forEach(function(k){if(attr[k])p[k]=attr[k]});return p}
+  window.metaTrack=function(ev,params,custom){var id=ev+'-'+uid(),p=base();if(params)for(var k in params)p[k]=params[k];try{fbq(custom?'trackCustom':'track',ev,p,{eventID:id})}catch(e){}return id};
+  metaTrack('PageView');
+  metaTrack('ViewContent',{content_type:'product',content_ids:['protocolo-colinho'],currency:'BRL'});
+
+  /* Profundidade de rolagem */
+  var marks=[25,50,75,90],done={};
+  window.addEventListener('scroll',function(){var h=document.documentElement,pct=Math.round((h.scrollTop||document.body.scrollTop)/((h.scrollHeight-h.clientHeight)||1)*100);marks.forEach(function(m){if(pct>=m&&!done[m]){done[m]=1;metaTrack('ScrollDepth',{percent:m},true)}})},{passive:true});
+  /* Tempo na página */
+  [30,60,120,180,300].forEach(function(s){setTimeout(function(){if(!document.hidden)metaTrack('TimeOnPage',{seconds:s},true)},s*1000)});
+  /* Cliques em CTAs internos (#oferta etc.) */
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href^="#"]'):null;if(!a||a.hasAttribute('data-checkout'))return;var h=a.getAttribute('href');if(h&&h.length>1&&h!=='#pendente')metaTrack('CTAClick',{target:h,label:(a.textContent||'').trim().slice(0,80),id:a.id||''},true);if(a.id==='btnEssencial')metaTrack('AddToCart',{value:9.9,currency:'BRL',content_ids:['essencial']})},true);
+  /* Vídeo (VSL) */
+  function hookVideo(v){if(v._mt)return;v._mt=1;var q={};v.addEventListener('play',function(){if(!q.p){q.p=1;metaTrack('VideoPlay',{},true)}});v.addEventListener('volumechange',function(){if(!v.muted&&!q.u){q.u=1;metaTrack('VideoUnmute',{},true)}});v.addEventListener('timeupdate',function(){if(!v.duration||v.muted)return;var p=v.currentTime/v.duration*100;[25,50,75,95].forEach(function(m){if(p>=m&&!q[m]){q[m]=1;metaTrack('VideoProgress',{percent:m},true)}})})}
+  if(window.MutationObserver)new MutationObserver(function(){var vs=document.getElementsByTagName('video');for(var i=0;i<vs.length;i++)hookVideo(vs[i])}).observe(document.documentElement,{childList:true,subtree:true});
+
+  /* Repasse de fbclid, lid, fbc, fbp, UTMs e IDs para os checkouts (Kiwify/Ticto) */
+  function decorate(a){var h=a.getAttribute('href');if(!h||/^(#|mailto:|tel:|javascript:)/i.test(h))return;var u;try{u=new URL(h,location.href)}catch(e){return}if(!/kiwify|ticto|hotmart|pay\./i.test(u.hostname))return;var ch=false;KEYS.forEach(function(k){if(attr[k]&&!u.searchParams.get(k)){u.searchParams.set(k,attr[k]);ch=true}});if(attr.fbc&&!u.searchParams.get('fbc')){u.searchParams.set('fbc',attr.fbc);ch=true}if(attr.fbp&&!u.searchParams.get('fbp')){u.searchParams.set('fbp',attr.fbp);ch=true}if(!u.searchParams.get('sck')&&attr.utm_source){u.searchParams.set('sck',[attr.utm_source,attr.utm_campaign,attr.utm_content].filter(Boolean).join('|'));ch=true}if(ch)a.setAttribute('href',u.toString())}
+  function decAll(){var a=document.getElementsByTagName('a');for(var i=0;i<a.length;i++)decorate(a[i])}
+  document.addEventListener('DOMContentLoaded',decAll);
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a'):null;if(a)decorate(a)},true);
+})();
 </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1864125674573258&ev=PageView&noscript=1" alt=""></noscript>
 
 <script>
 (function(){
